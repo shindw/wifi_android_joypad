@@ -100,7 +100,7 @@ class HTTPRequestHandler(BaseHTTPRequestHandler):
 		rightDist = int(data[2])
 		rightAngle = int(data[3])
 
-        if ( leftDist >= 5 and (leftAngle<9 or leftAngle>27)):
+        	if ( leftDist >= 5 and (leftAngle<9 or leftAngle>27)):
 			forword()
 		elif ( leftDist >= 5 and (leftAngle>9 and leftAngle<27)):
 			backword()
